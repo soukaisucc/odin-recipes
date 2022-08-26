@@ -1,0 +1,44 @@
+body {
+   font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
+   background-color: aliceblue;
+}
+
+h1 {
+   font-size: 48px;
+   color: red;
+}
+
+h1.recipe {
+   font-weight: 800;
+   font-size: 32px;
+}
+
+img {
+   height: 600px;
+   float: left;
+   margin: 0 30px 100% 0;
+   margin-bottom: 30px;
+}
+
+h2 {
+   font-size: 28px;
+   color: purple;
+}
+
+li {
+   font-size: 22px;
+}
+
+ol > li::marker {
+   font-weight: bold;
+}
+
+
+
+.link {
+   color: blue;
+   background-color: yellow;
+   font-weight: 800;
+   font-size: 32px;
+}
+
